@@ -1,40 +1,110 @@
 <!DOCTYPE html>
 <html lang="es-CO">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profesores</title>
 </head>
+
 <body>
 
 
-   <header>
-    <h1>  PROFESORES</h1>
-   </header> 
+    <header>
+        <h1 class="text-center"> PROFESORES</h1>
+    </header>
 
-   <main class= "container"> 
+    <main class="container">
 
-        <section>
+        <section class="row text-center">
 
-            <article>
+            <article class="col-xs-12 col-md-6">
                 Imagen
             </article>
-            <article>
+            <article class="col-xs-12 col-md-6">
                 Formulario
             </article>
         </section>
+        <section class="row">
 
-        <section>
-            <table></table>
+            <div class="col-12">
+                <table class=" table table-hover">
+
+                    <caption>
+                        Registro de los Profesores
+                    </caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                Id de profesor
+                            </th>
+                            <th scope="col">
+                                Nombre
+                            </th>
+                            <th scope="col">
+                                Descripcion
+                            </th>
+                            <th scope="col">
+                                correo
+                            </th>
+                            <th scope="col">
+                                fecha de nacimiento
+                            </th>
+                            <th scope="col">
+                                opciones
+                            </th>
+                        </tr>
+
+
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                102030
+                            </td>
+                            <td>
+                                Juan pablo Jimenez p
+                            </td>
+                            <td>
+                                Estudiante
+                            </td>
+                            <td>
+                                juanpablojimenezp1@gmail.com
+                            </td>
+                            <td>
+                                19/06/1990
+                            </td>
+                            <td>
+                              <button type-button="" class="btn btn-primary">
+                                <em class="fa fa-pencil"> </em> Editar
+                              </button>
+                              <button type-button="" class="btn btn-danger">
+                                <em class="fa fa-trash"> </em> Eliminar
+                              </button> 
+                            </td>
+                        </tr>
+
+
+
+                    </tbody>
+
+
+                </table>
+
+
+            </div>
+
         </section>
 
 
-   </main>
-   <footer>
-    Derechos resevados 2023 -  Juan Pablo <em class = "fa fa-heart"> </em>
+    </main>
+    <footer>
+        Derechos resevados 2023 - Juan Pablo <em class="fa fa-futbol"> </em>
 
-  </footer>
-               
+    </footer>
 </body>
+
 </html>
