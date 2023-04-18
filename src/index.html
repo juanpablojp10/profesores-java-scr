@@ -23,10 +23,52 @@
                <img src="./assets/img/teacher.jpg" alt="Profesores">
             </article>
             <article class="col-xs-12 col-md-6">
-                Formulario
+
+                <form class="form floating" id="teacherForm">
+                    <div class="form-floating mb-3">
+
+
+                        <input type="text" name="txtName" id="txtName" class="form-control" placeholder="Ejm Juan">
+                        <label for="txtName">Nombre</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea name="txtDescription" id="txtDescription" class="form-control" cols="30" rows="10"></textarea>
+                    <label for="txtDescription">Descripción</label>
+
+                </div>
+                <div class="form-floating mb-3">
+
+
+                    <input type="email" name="txtmail" id="txtmail" class="form-control" placeholder="Correo electrónico" >
+                    <label for="txtmail">Correo electrónico</label>
+                </div>
+                <div class="form-floating mb-3">
+
+
+                    <input type="date" name="txtBirthdate" id="txtBirthdate" class="form-control" placeholder="Ejm 05/07/1999">
+                    <label for="txtBirthdate">Fecha de nacimiento</label>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         
+                        <button type ="reset" id= "btnCancel" class="btn btn-secondary">Cancelar </button>
+                    </div>
+                    <div class="col-md-6">
+                        <button type ="submit" id= "btnSubmit" class="btn btn-success">Enviar</button>
+                    </div>
+
+                </div>
+
+
+                </form>
+                
+
+
+
+
             </article>
         </section>
-        <section class="row">
+        <section class="row mt-6">
 
             <div class="col-12">
                 <div class=" table-responsive">
