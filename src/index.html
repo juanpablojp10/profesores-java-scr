@@ -20,7 +20,7 @@
         <section class="row text-center">
 
             <article class="col-xs-12 col-md-6">
-               <img src="./assets/img/teacher.jpg" alt="Profesores">
+                <img src="./assets/img/teacher.jpg" alt="Profesores">
             </article>
             <article class="col-xs-12 col-md-6">
 
@@ -30,38 +30,41 @@
 
                         <input type="text" name="txtName" id="txtName" class="form-control" placeholder="Ejm Juan">
                         <label for="txtName">Nombre</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <textarea name="txtDescription" id="txtDescription" class="form-control" cols="30" rows="10"></textarea>
-                    <label for="txtDescription">Descripción</label>
-
-                </div>
-                <div class="form-floating mb-3">
-
-
-                    <input type="email" name="txtmail" id="txtmail" class="form-control" placeholder="Correo electrónico" >
-                    <label for="txtmail">Correo electrónico</label>
-                </div>
-                <div class="form-floating mb-3">
-
-
-                    <input type="date" name="txtBirthdate" id="txtBirthdate" class="form-control" placeholder="Ejm 05/07/1999">
-                    <label for="txtBirthdate">Fecha de nacimiento</label>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                         
-                        <button type ="reset" id= "btnCancel" class="btn btn-secondary">Cancelar </button>
                     </div>
-                    <div class="col-md-6">
-                        <button type ="submit" id= "btnSubmit" class="btn btn-success">Enviar</button>
-                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea name="txtDescription" id="txtDescription" class="form-control" cols="30"
+                            rows="10"></textarea>
+                        <label for="txtDescription">Descripción</label>
 
-                </div>
+                    </div>
+                    <div class="form-floating mb-3">
+
+
+                        <input type="email" name="txtEmail" id="txtEmail" class="form-control"
+                            placeholder="Correo electrónico">
+                        <label for="txtmail">Correo electrónico</label>
+                    </div>
+                    <div class="form-floating mb-3">
+
+
+                        <input type="date" name="txtBirthDate" id="txtBirthDate" class="form-control"
+                            placeholder="Ejm 05/07/1999">
+                        <label for="txtBirthDate">Fecha de nacimiento</label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <button type="reset" id="btnCancel" class="btn btn-secondary">Cancelar </button>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="submit" id="btnSubmit" class="btn btn-success">Enviar</button>
+                        </div>
+
+                    </div>
 
 
                 </form>
-                
+
 
 
 
@@ -72,14 +75,14 @@
 
             <div class="col-12">
                 <div class=" table-responsive">
-                    <table class=" table table-hover">
+                    <table id= "tblTeachers" class=" table table-hover table bordered">
 
                         <caption>
                             Registro de los Profesores
                         </caption>
 
                         <thead>
-                            <tr class="table-dark text-center" >
+                            <tr class="table-dark text-center">
                                 <th scope="col">
                                     Id de profesor
                                 </th>
@@ -87,7 +90,7 @@
                                     Nombre
                                 </th>
                                 <th scope="col">
-                                    Descripcion
+                                    Descripción
                                 </th>
                                 <th scope="col">
                                     Correo
@@ -109,7 +112,7 @@
                                     102030
                                 </td>
                                 <td class="text-center">
-                                    Juan pablo Jimenez p
+                                    Juan Pablo Jimenez p
                                 </td>
                                 <td class="text-center">
                                     Estudiante
@@ -122,10 +125,10 @@
                                 </td>
                                 <td class="text-center">
                                     <button type-button="" class="btn btn-primary" title="Editar">
-                                        <em class="fa fa-pencil"> </em> 
+                                        <em class="fa fa-pencil"> </em>
                                     </button>
                                     <button type-button="" class="btn btn-danger" title="Eliminar">
-                                        <em class="fa fa-trash"> </em> 
+                                        <em class="fa fa-trash"> </em>
                                     </button>
                                 </td>
                             </tr>
