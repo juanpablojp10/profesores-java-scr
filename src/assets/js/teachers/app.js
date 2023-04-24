@@ -1,6 +1,5 @@
-//ENCARGADO DE ORQUESTAR TODAS LAS FUNCIONES DE LOS DEMÁS ARCHIVOS
-
-import {listeners} from './operations';
+// Encargado de orquestar todas las funciones de los demás archivos
+import { listeners } from './operations';
 
 export function initializeApp() {
     listeners();

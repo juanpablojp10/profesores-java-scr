@@ -1,14 +1,14 @@
-# profesores-java-scr
 
-## requisitos previos
-   
 # Nuevo Proyecto Web 
 
 Este documento explica cómo iniciar un proyecto web desde cero utilizando Webpack, Babel y otras herramientas para la construcción y el desarrollo. 
 
 ## Requisitos previos Asegúrate de tener instalado 
 
-[Node.js](https://nodejs.org/) y [npm](https://www.npmjs.com/) en tu sistema antes de comenzar. 
+[Node.js](https://nodejs.org/) y [npm](https://www.npmjs.com/) en tu sistema antes de comenzar. Con los siguientes comandos verificamos las instalaciones: 
+
+- ``node --version``
+- ``npm --version``
 
 ## Iniciar un nuevo proyecto  
 

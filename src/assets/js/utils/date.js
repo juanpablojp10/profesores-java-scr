@@ -1,1 +1,1 @@
-// ENCARGADO DE LAS UTILIDADES PARA LAS FECHAS 
+// Encargado de las utilidades para las fechas

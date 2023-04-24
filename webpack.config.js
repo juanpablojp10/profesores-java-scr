@@ -38,12 +38,11 @@ module.exports = (env, argv) => {
                         options: {
                             presets: ['@babel/preset-env']
                         }
-
                     }
                 },
                 {
-                    test : /\.(png|jpg|jpeg|gif|svg)$/,
-                    use : [
+                    test: /\.(png|jpg|jpeg|gif|svg)$/,
+                    use: [
                         {
                             loader: 'url-loader',
                             options: {
@@ -53,13 +52,12 @@ module.exports = (env, argv) => {
                         }
                     ]
                 }
-
             ]
         },
         plugins: [
             new HtmlWebpackPlugin({
                 template: './src/index.html',
-                chunks: ['index','styles']
+                chunks: ['index', 'styles']
             }),
             // averiguar que significa un spread operator
             ...(isProduction ? [new MiniCssExtractPlugin({ filename: 'assets/css/[name].[contenthash].css' })] : []),
@@ -71,7 +69,6 @@ module.exports = (env, argv) => {
                     }
                 ]
             })
-                             
         ],
         devServer: {
             static: {
